@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: #222;
+}
+
+body{
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasbeh--box{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top--text{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.top--text a{
+    color: rgb(245, 77, 77);
+}
+
+.num{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.restart{
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    background: rgb(245, 77, 77);
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.restart:hover{
+    background: rgba(245, 77, 77, 0.8);
+    border-radius: 10px;
+    /* transform: rotateX(360deg); */
+}
+
+
+.mod--light{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(51, 51, 51);
+    cursor: pointer;
+    transition: 1s;
+    transform: rotateY(0deg);
+}
+
+.mod--light:hover{
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    /* transform: rotateY(180deg); */
+    transition: 1s;
+}
+
+.mod--light i{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.mod{
+    transform: rotateY(180deg);
+}
+
+.icons{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icons .fa-telegram{
+    font-size: 1.6rem;
+    color: #35a6f1;
+    transition: 0.8s;
+}
+
+.icons .fa-youtube{
+    font-size: 1.6rem;
+    color: rgb(245, 77, 77);
+    transition: 0.8s;
+}
+
+.icons .fa-instagram{
+    font-size: 1.6rem;
+    color: red;
+    transition: 0.8s;
+}
+
+.icons .fa-telegram:hover{
+    transition: 0.8s;
+    transform: rotateZ(360deg);
+}
+
+.icons .fa-youtube:hover{
+    transition: 0.8s;
+    transform: rotateZ(360deg);
+}
+
+.icons .fa-instagram:hover{
+    transition: 0.8s;
+    transform: rotateZ(360deg);
+}
