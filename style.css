@@ -37,11 +37,26 @@ a{
 
 .num{
     width: 100%;
-    height: 20rem;
+    height: 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 10rem;
+}
+
+.num1{
+    opacity: 0;
+}
+
+.num1,
+.num2{
+    width: 100%;
+    height: 2rem;
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
 
 .btns{
